@@ -34,7 +34,7 @@ pipeline {
                         agent {
                                 docker {
                                         reuseNode false
-					echo "hello-world"
+					image 'hello-world'
                                         }
 			}
 				steps {
